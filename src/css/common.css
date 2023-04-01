@@ -16,3 +16,35 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* ---------styles for 01-color-switcher.html-------- */
+.wrapper-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 400px;
+}
+.switcher-btn {
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+/* ---------styles for 02-timer.html-------- */
+.field {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.timer {
+  display: flex;
+  gap: 10px;
+}
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.value {
+  font-size: 35px;
+}
